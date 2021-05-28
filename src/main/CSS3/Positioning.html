@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Divs</title>
+</head>
+<body>
+<div id="background">
+    <img src="https://cdn.wallpapersafari.com/7/6/mlnHk2.jpg" alt="error">
+</div>
+<div id="topics">
+    <h2>Topics</h2>
+    <ul>
+        <li>T1</li>
+        <li>T2</li>
+        <li>T3</li>
+    </ul>
+</div>
+<div id="content">
+    <h1>SUPER COOLER CONTENT!</h1>
+</div>
+</body>
+</html>
+
+<style>
+    #background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #topics {
+        background-color: antiquewhite;
+        opacity: 50%;
+        width: 10%;
+        height: 400px;
+        position: fixed;
+        z-index: 2;
+    }
+
+    #content {
+        background-color: aquamarine;
+        position: relative;
+        width: 50%;
+        text-align: center;
+        top: 20%;
+        left: 30%;
+        z-index: 2;
+    }
+
+</style>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internal CSS</title>
+</head>
+<body>
+<div>
+  <h1 class="ueberschrift">Überschrift</h1>
+  <p class="wichtig">Alle Wege führen nach Rom!</p>
+  <p>Internal CSS ist super!</p>
+  <p id="einzigartig">Dies ist etwas mehr text und unterstrichen.
+    <span style="text-decoration: underline; color: black">Nur dieses P-Tag soll angesprochen werden: ID</span>
+  </p>
+</div>
+
+</body>
+</html>
+
+<style>
+  #einzigartig {
+    color: darksalmon;
+  }
+
+  .wichtig {
+    color: red;
+    font-size: 150%;
+  }
+
+  .ueberschrift {
+    color: green;
+  }
+</style>
